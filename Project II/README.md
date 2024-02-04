@@ -30,7 +30,6 @@ The project consists of the following files and directories:
 - `disaster_categories.csv`: Data containing message categories.
 - `disaster_messages.csv`: Data containing disaster-related messages.
 - `process_data.py`: A Python script for data cleaning and ETL pipeline.
-- `InsertDatabaseName.db`: SQLite database for storing cleaned data.
 
 #### models
 - `train_classifier.py`: A Python script for building and training the classification model.
