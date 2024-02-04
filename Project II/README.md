@@ -1,18 +1,39 @@
-# Disaster Response Pipeline Project
+### Disaster Response Pipeline Project
 
 ## Table of Contents
-- [Disaster Response Pipeline Project](#disaster-response-pipeline-project)
-  - [Table of Contents](#table-of-contents)
-    - [Project Overview](#project-overview)
-    - [Project Components](#project-components)
-      - [1. ETL Pipeline](#1-etl-pipeline)
-      - [2. ML Pipeline](#2-ml-pipeline)
-      - [3. Flask Web App](#3-flask-web-app)
-    - [How to Use the Project](#how-to-use-the-project)
-    - [Acknowledgments](#acknowledgments)
+- [Table of Contents](#table-of-contents)
+  - [Project Overview](#project-overview)
+  - [File Descriptions](#file-descriptions)
+    - [app](#app)
+    - [data](#data)
+    - [models](#models)
+  - [Project Components](#project-components)
+    - [1. ETL Pipeline](#1-etl-pipeline)
+    - [2. ML Pipeline](#2-ml-pipeline)
+    - [3. Flask Web App](#3-flask-web-app)
+  - [How to Use the Project](#how-to-use-the-project)
+  - [Acknowledgments](#acknowledgments)
 
 ### Project Overview
 In this project, I applied my data engineering and machine learning skills to analyze disaster data provided by [Figure Eight](https://appen.com/). The goal was to build a model and deploy it as an API that classifies disaster-related messages. This classification helps route messages to appropriate disaster relief agencies. Additionally, a web app was developed to allow emergency workers to input messages and receive real-time classification results, along with data visualizations.
+
+### File Descriptions
+The project consists of the following files and directories:
+
+#### app
+- `template`: Contains HTML templates for the web app.
+  - `master.html`: The main page of the web app.
+  - `go.html`: The page displaying classification results.
+- `run.py`: A Flask file that runs the web app.
+
+#### data
+- `disaster_categories.csv`: Data containing message categories.
+- `disaster_messages.csv`: Data containing disaster-related messages.
+- `process_data.py`: A Python script for data cleaning and ETL pipeline.
+- `InsertDatabaseName.db`: SQLite database for storing cleaned data.
+
+#### models
+- `train_classifier.py`: A Python script for building and training the classification model.
 
 ### Project Components
 The project consists of three main components:
