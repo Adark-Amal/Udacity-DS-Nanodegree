@@ -24,7 +24,7 @@ The primary goal behind this project is to address the challenge of customer chu
 ## File Descriptions
 The project consists of a jupyter notebook that contains all the code for performing the analysis
 
-## Medium Blog Post
+## Blog Post
 For a detailed overview of the project, findings, and technical insights, you can refer to the Medium blog post available [here](https://medium.com/@davidwyse48/user-churn-prediction-40051bc1a017). 
 
 ## Acknowledgements
