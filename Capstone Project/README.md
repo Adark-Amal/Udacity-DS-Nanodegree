@@ -19,7 +19,7 @@ The primary goal behind this project is to address the challenge of customer chu
 1. Loading and cleaning a small subset (128MB) of the full dataset (12GB).
 2. Conducting Exploratory Data Analysis (EDA) to gain insights into the data and identify relevant features for predicting churn.
 3. Feature Engineering to create meaningful features for modeling.
-4. Building predictive models using various machine learning algorithms, including Logistic Regression, Random Forest, Gradient Boosted Trees, Linear SVM, and Naive Bayes.
+4. Building predictive models using various machine learning algorithms, including Logistic Regression, Random Forest, and Gradient Boosted Trees.
 
 ## File Descriptions
 The project consists of a jupyter notebook that contains all the code for performing the analysis
